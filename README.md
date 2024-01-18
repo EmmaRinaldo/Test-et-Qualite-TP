@@ -13,6 +13,8 @@ Ce projet vise à améliorer la qualité du code d'une calculatrice Python en ut
 
 ## Instructions d'installation et d'exécution
 
+- Faite la commande dans le terminal, afin de télécharger toutes les dépendances, remplacer "venv"  par le nom de votre environnement (commande pour windows) : .\venv\Scripts\pip install -r requirements.txt
+- Remplacer dans le fichier sonar-project.properties le "sonar.login=..." par votre token de sonarqube
 
 
 ## Structure du projet
