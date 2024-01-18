@@ -13,9 +13,13 @@ Ce projet vise à améliorer la qualité du code d'une calculatrice Python en ut
 
 ## Instructions d'installation et d'exécution
 
+
+
 ## Structure du projet
+
+
 
 ## Tests / Qualité
 
-## 
+
 
