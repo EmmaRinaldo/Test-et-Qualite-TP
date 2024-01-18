@@ -1,2 +1,4 @@
 env_tq/
 .env
+
+__pycache__/
