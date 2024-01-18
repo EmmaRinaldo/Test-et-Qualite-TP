@@ -1,31 +1,24 @@
 class MathOperations:
-    def addition(a, b):
-        return a + b
-    
-    def soustraction(a, b):
-        return a - b
+    def addition(self, b):
+        return self + b
 
-    def multiplication(a, b):
-        return a * b
+    def soustraction(self, b):
+        return self - b
 
-    def division(a, b):
-        if b != 0:
-            return a / b
-        else:
-            raise ValueError("zero ne peut pas etre diviseur")
+    def multiplication(self, b):
+        return self * b
 
-    def puissance(a, b):
-        if a < 0 and isinstance(b, float):
-            raise ValueError("ça marche pas, mais j'ai la flm d'expliquer pourquoi")
-        else:
-            return a ** b
-    def modulo(a, b):
-        if b != 0:
-            return a % b
-        else:
-            raise ValueError("zero ne peut pas etre diviseur")
+    def division(self, b):
+        return self / b
 
-def opération(expression):
+    def puissance(self, b):
+        return self ** b
+
+    def modulo(self, b):
+        return self % b
+
+
+def operation(expression):
     parts = expression.split()
     if len(parts) % 2 == 0:
         raise ValueError("Format invalide")
@@ -52,8 +45,9 @@ def opération(expression):
 
     return resultat
 
+
 def main():
-    user_input = input("Tape o pour commencer le programme ou * pour l'arrêter:")
+    user_input = input("Tape o pour commencer ou * pour arrêter:")
 
     if user_input == 'o':
         while True:
@@ -63,10 +57,11 @@ def main():
                 break
 
             try:
-                result = opération(operation_str)
+                result = operation(operation_str)
                 print(f"Le résultat de l'opération est: {result}")
 
             except ValueError as e:
                 print(f"Erreur: {e}")
+
 
 main()
