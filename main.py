@@ -47,9 +47,9 @@ def operation(expression):
 
 
 def main():
-    user_input = input("Tape o pour commencer ou * pour arrêter:")
+    user_input = input("Tape O pour commencer ou * pour arrêter:")
 
-    if user_input == 'o':
+    if user_input == 'O':
         while True:
             operation_str = input("Entrez votre opération: ")
 

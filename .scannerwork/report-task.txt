@@ -2,5 +2,5 @@ projectKey=mon-projet-python
 serverUrl=http://localhost:9000
 serverVersion=10.3.0.82913
 dashboardUrl=http://localhost:9000/dashboard?id=mon-projet-python
-ceTaskId=AY0eZ5PBaepwZTSDgcj1
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AY0eZ5PBaepwZTSDgcj1
+ceTaskId=AY0ek-oqaepwZTSDgcj2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY0ek-oqaepwZTSDgcj2
